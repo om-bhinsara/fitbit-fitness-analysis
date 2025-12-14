@@ -60,9 +60,9 @@ This project performs exploratory data analysis (EDA) on Fitbit fitness tracker 
 ┃ ┗ 📂 processed
 ┣ 📂 notebook
 ┃ ┗ 📄 fitness_health_analysis.ipynb
+┣ 📄 .gitignore
 ┣ 📄 README.md
-┣ 📄 requirements.txt
-┗ 📄 .gitignore
+┗ 📄 requirements.txt
 ```
 
 ---
