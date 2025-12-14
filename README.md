@@ -41,6 +41,12 @@ This project performs exploratory data analysis (EDA) on Fitbit fitness tracker 
 
 ---
 
+🔎 Note on Calories Burned with Zero Recorded Steps
+
+It is observed in the analysis that some days show zero recorded steps while still having calorie expenditure around 1800–2200 kcal. This behavior is physiologically valid and does not represent an outlier. Daily calorie burn includes Basal Metabolic Rate (BMR), which accounts for the energy required to maintain vital bodily functions such as breathing, circulation, and temperature regulation. Additionally, Fitbit devices may record calorie expenditure from non-step activities such as standing, light movements, or activities not captured by step count. Therefore, days with zero steps but moderate calorie burn were retained in the analysis.
+
+---
+
 ## 🔍 Key Insights
 
 * Daily steps and calories show a **moderate positive relationship**, indicating that increased activity leads to higher energy expenditure.
